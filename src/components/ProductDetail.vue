@@ -7,7 +7,7 @@
 
 
 
-      <!-- Close Button -->
+
       <button @click="$emit('close')"
         class="absolute right-5 top-5 z-20 inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-slate-700 shadow-md shadow-slate-200/60 transition hover:-translate-y-0.5 hover:bg-white dark:bg-slate-900/90 dark:text-slate-100 dark:shadow-slate-950/60 sm:right-4 sm:top-4 sm:h-10 sm:w-10">
         <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -15,7 +15,7 @@
         </svg>
       </button>
 
-      <!-- Images -->
+
       <section
         class="relative min-h-0 flex flex-col md:gap-4 overflow-y-auto bg-slate-100 p-2 dark:bg-slate-900/70 sm:p-5 md:p-6 lg:p-8">
 
@@ -52,7 +52,7 @@
         </p> -->
       </section>
 
-      <!-- Details -->
+
       <section class="flex min-w-0 flex-col justify-between md:gap-5 gap-1 overflow-y-auto p-5 sm:p-6 md:p-7 lg:p-8">
         <div class="md:space-y-4 space-y-2">
           <div class="flex flex-col relative items-start justify-between md:gap-4 sm:flex-row sm:items-center">

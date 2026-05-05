@@ -192,7 +192,7 @@
 import axios from 'axios'
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
-const CATEGORY_API = 'http://localhost/Eshop/Backend/api/category'
+const CATEGORY_API = 'http://myapi2026.infinityfreeapp.com/api/category'
 
 const isLoading = ref(false)
 const errorMessage = ref('')

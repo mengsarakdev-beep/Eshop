@@ -30,7 +30,7 @@
 </template>
 
 <script setup lang="ts">
-import axios from "axios";
+
 import { ref, watch, onMounted } from "vue";
 
 interface Product {
@@ -63,12 +63,12 @@ const fetchProducts = async () => {
   }
 };
 
-// Watch search input and fetch products dynamically
+
 watch(search, () => {
   fetchProducts();
 });
 
-// Fetch all products initially
+
 onMounted(() => {
   fetchProducts();
 });
